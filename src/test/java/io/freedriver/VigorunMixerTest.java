@@ -69,11 +69,11 @@ public class VigorunMixerTest {
                 new ThrottleAndSteering(MIN, MIN)
         ),
         LEFT_TREAD_MAX_FORWARD(
-                new SkidSteerLeftRight(MID, MAX),
+                new SkidSteerLeftRight(MAX, MID),
                 new ThrottleAndSteering(MAX, MAX)
         ),
         LEFT_TREAD_MAX_BACKWARD(
-                new SkidSteerLeftRight(MID, MAX),
+                new SkidSteerLeftRight(MIN, MID),
                 new ThrottleAndSteering(MIN, MAX)
         ),
         NO_MOVEMENT(
